@@ -23,6 +23,7 @@ var (
 
 func main() {
 	pflag.Parse()
+	fmt.Println(username,password)
 
 	fmt.Println("验证原始镜像内容")
 	var hubMirrors struct {
